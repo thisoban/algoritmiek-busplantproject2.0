@@ -20,23 +20,7 @@ namespace BusAlgorithmTest
         [InlineData(10)]
         public void ReturnBusList(int Id)
         {
-            //List<Bus> bussen = new List<Bus>()
-            //{
-            //    new Bus(1),
-            //    new Bus(2),
-            //    new Bus(3),
-            //    new Bus(4),
-            //    new Bus(5),
-            //    new Bus(6),
-            //    new Bus(7),
-            //    new Bus(8),
-            //    new Bus(9),
-            //    new Bus(10),
-            //    new Bus(11),
-            //    new Bus(12),
-            //    new Bus(13),
-            //    new Bus(14),
-            //};
+            
             Bus bus = new Bus(Id);
             using (AlgorithmCleaning Algoritme = new AlgorithmCleaning())
                 Algoritme.renstester(bus);
@@ -50,23 +34,6 @@ namespace BusAlgorithmTest
         [InlineData(8)]
         public void ShortCleaningTask(int Id)
         {
-            //List<Bus> bussen = new List<Bus>()
-            //{
-            //    new Bus(1),
-            //    new Bus(2),
-            //    new Bus(3),
-            //    new Bus(4),
-            //    new Bus(5),
-            //    new Bus(6),
-            //    new Bus(7),
-            //    new Bus(8),
-            //    new Bus(9),
-            //    new Bus(10),
-            //    new Bus(11),
-            //    new Bus(12),
-            //    new Bus(13),
-            //    new Bus(14),
-            //};
             Bus bus = new Bus(Id);
             using (AlgorithmCleaning Algoritme = new AlgorithmCleaning())
                 Algoritme.renstester(bus);
